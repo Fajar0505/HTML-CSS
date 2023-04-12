@@ -1,0 +1,109 @@
+/* UNIVERSAL AREA */
+
+.banner {
+  background-image: url(../../assets/img/Coffe_Header.png);
+  background-size: cover;
+  height: 478px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.logo {
+  height: 27px;
+}
+
+.nav-item:hover {
+  background-color: #EC9A29;
+  border-radius: 14px;
+}
+
+.shadow {
+  background-color: rgba(20, 54, 66, 0.7);
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header-title {
+  font-family: Lato, sans-serif;
+}
+
+/* end */
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+  .header-title h1 {
+    padding-top: 98px;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header-title p {
+    font-size: 16px;
+  }
+}
+
+/*  */
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .header-title h1 {
+    font-size: 70px;
+    padding-top: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-title p {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    height: 37px;
+  }
+}
+
+/* end */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+  .banner {
+    height: 700px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .shadow {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header-title h1 {
+    padding-top: 133px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .logo {
+    height: 67px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar-nav {
+    font-size: 30px;
+  }
+}
+
+/* end */
+
